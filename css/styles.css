@@ -1,1 +1,42 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  background-color: #FFF1D0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+}
+
+.login-field {
+  background-color: #086788;
+  color: white;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  border: 3px solid green;
+  position: absolute;
+  transform: translate(0%, 100%);
+}
+.login-field .inputs {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
+}
+.login-field .button-check {
+  display: flex;
+  justify-content: space-evenly;
+}
+.login-field .forgot {
+  background-color: #FFF1D0;
+  color: black;
+  margin: 10px;
+}
+.login-field .sign-up {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=styles.css.map */

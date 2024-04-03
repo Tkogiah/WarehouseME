@@ -1,0 +1,51 @@
+$pc1: #086788;
+$pc2: #07A0C3;
+$pc3: #F0C808;
+$pc4: #FFF1D0;
+$pc5: #DD1C1A;
+
+body {
+    background-color: $pc4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.hero { 
+    display: flex;
+}
+.login-field {
+    background-color: $pc1;
+    color: white;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    border: 3px solid green;
+    position: absolute;
+    transform: translate(0%, 100%);
+
+    .inputs {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        margin: 10px;
+
+    }
+    .button-check {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .forgot {
+        background-color: $pc4;
+        color: black;
+        margin: 10px;
+    }
+    .sign-up {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+}
+
+// mobile
